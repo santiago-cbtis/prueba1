@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Usuario
+        </title>
+    </head>
+    <style>
+        body{
+            background-color: #000000;
+        }
+        div{
+            color: aliceblue;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        .centrado {
+            text-align: center;
+        }
+        .contenedor {
+      display: flex;
+    }
+    p{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .div1, .div2 {
+      flex: 1; 
+      margin: 5px;
+    }
+    .borde{
+            border: 3px solid white;
+            width: 25%;
+    }
+    @media (max-width: 600px){.cuadros{flex-flow: column;}}
+    .menu div:hover{background-color: orange;}
+        
+       
+    </style>
+    <body>
+        <div class="centrado">
+            <img src="banner.gif" >
+        </div>
+        <div class="contenedor menu">
+            <div class="div1 borde"><p>Comida</p></div>
+            <div class="div2 borde"><p>Bebidas</p></div>
+            <div class="div2 borde"><p>Postres</p></div>
+            <div class="div1 borde"><p>Frituras</p></div>
+        </div>
+    </body>
+</html>
